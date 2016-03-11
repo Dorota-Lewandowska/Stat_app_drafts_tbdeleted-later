@@ -15,10 +15,10 @@ library(shinyjs)
 
 
 
-ui = fluidPage(
-  titlePanel("Calculator indep samples"),
-  fluidRow(box(rHandsontableOutput("hot")))  
-)
+#ui = fluidPage(
+  #titlePanel("Calculator indep samples"),
+  #fluidRow(box(rHandsontableOutput("hot")))  
+#)
 
 shinyUI(fluidPage(
   titlePanel("Calculator - % diff independent samples"),
